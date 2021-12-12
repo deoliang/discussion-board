@@ -2,6 +2,11 @@
 A simple app where you can log in, sign up, post comments, filter between your own and all comments, and delete your own comments completed as a challenge for a company. Built with react and meteor frameworks.
 
 ## Usage
+Install meteor on your machine
+```
+npm install -g meteor
+```
+
 Clone repository
 ```
 git clone https://github.com/deoliang/discussion-board.git
