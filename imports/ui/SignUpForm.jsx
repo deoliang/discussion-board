@@ -25,9 +25,10 @@ export const SignUpForm = () => {
             }
         });
         //log in to system only if sign up is for a brand new user
-        if (Accounts.findUserByEmail(email)) {
-            setError('Email already exists.')
-
+        if (Meteor.users.find({ "emails.address" : email})) {
+            setEmail('')
+            setPassword('')
+            return
         } else {
             Meteor.loginWithPassword(email, password);
         }
