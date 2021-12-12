@@ -1,5 +1,5 @@
 # Discussion Board
-A simple app where you can log in, sign up, post comments, filter between your own and all comments, and delete your own comments as a challenge for a company. Built with react and meteor frameworks.
+A simple app where you can log in, sign up, post comments, filter between your own and all comments, and delete your own comments completed as a challenge for a company. Built with react and meteor frameworks.
 
 ## Usage
 Clone repository
